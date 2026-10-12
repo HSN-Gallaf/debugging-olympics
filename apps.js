@@ -32,7 +32,7 @@ function checkAnswer() {
   }
 
   // ===
-  if ((answer = questions[currentQuestion].answer)) {
+  if ((answer === questions[currentQuestion].answer)) {
     console.log(score);
 
     score += 1;
