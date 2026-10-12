@@ -35,7 +35,7 @@ function checkAnswer() {
   if ((answer = questions[currentQuestion].answer)) {
     console.log(score);
 
-    score = +1;
+    score += 1;
     messageDisplay.textContent = "Correct!";
 
   } else {
